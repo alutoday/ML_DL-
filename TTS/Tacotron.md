@@ -24,6 +24,7 @@ Nói tóm lại, nó tạo ra công thức để tạo ra âm thanh, chứ chưa
 
 ## "Nội Tạng" của bé Tacotron gồm những gì? 🧠
 ![alt text](image.png)
+<br>
 Bên trong bộ não của bé Tacotron có một đội ngũ làm việc như một công ty chuyên nghiệp:
 
 **Encoder (Thánh Soi Chữ):** Anh chàng này có nhiệm vụ đọc văn bản bạn đưa vào. Nó phân tích từng chữ, hiểu ngữ cảnh và tóm tắt lại ý nghĩa của câu văn thành một dạng ngôn ngữ "chỉ AI mới hiểu".
@@ -39,6 +40,9 @@ Bên trong bộ não của bé Tacotron có một đội ngũ làm việc như m
 
 ## Encoder (Phòng Phân Tích & Mã Hóa Thông Tin) 🕵️‍♂️
 ![alt text](image-1.png)
+<br>
+
+
 Đây là bộ phận đầu vào, nơi tiếp nhận "đơn hàng" của khách (chính là câu văn bạn gõ vào). Trưởng phòng ở đây là một anh chàng Encoder siêu lập dị nhưng cực kỳ thông minh.
 
 **Quy trình làm việc của Encoder:**
@@ -54,6 +58,9 @@ Bên trong bộ não của bé Tacotron có một đội ngũ làm việc như m
 
 ## Decoder + Attention Mechanism (Phòng Sáng Tác Âm Nhạc) 🎼
 ![alt text](image-2.png)
+<br>
+
+
 Đây là trái tim của công ty, nơi "Nhà Soạn Nhạc" Decoder và "Giám Thị Khó Tính" Attention làm việc.
 
 **Màn kết hợp đỉnh cao:**
@@ -76,6 +83,9 @@ Tại sao phải có "Giám Thị"? Nếu không có ông này kè kè bên cạ
 
 ## Post-processing Network (Phòng Hậu Kỳ & Mix Nhạc) ✨
 ![alt text](image-3.png)
+<br>
+
+
 Bản đồ âm thanh thô từ phòng sáng tác được gửi đến đây để "tút tát" lại cho sang-xịn-mịn. Trưởng phòng ở đây lại là anh chàng đa tài CBHG (đúng vậy, anh ta làm 2 job lận!).
 
 **Quy trình "Make-up":**
@@ -87,12 +97,18 @@ Bản đồ âm thanh thô từ phòng sáng tác được gửi đến đây đ
 
 => Kết quả: Từ bản đồ âm thanh, chúng ta có một file audio hoàn chỉnh, sẵn sàng phát!
 ![alt text](image-4.png)
+<br>
+
+
 ---
 
 ## Experiments (Kỳ Thi Tốt Nghiệp) 🎓
 
 Sau khi "bé" Tacotron ra đời, các nhà khoa học đã cho nó đi thi.
 ![alt text](image-5.png)
+<br>
+
+
 * Quá trình học: Cho nó nghe một cô giáo người Mỹ nói tiếng Anh trong 24.6 giờ liên tục.
 * Bài thi: Đưa 100 câu văn mà nó chưa từng thấy bao giờ.
 * Ban giám khảo: Mời rất nhiều người bản xứ đến nghe và chấm điểm độ tự nhiên theo thang 5 điểm (gọi là điểm MOS).
